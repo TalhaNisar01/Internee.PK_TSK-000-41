@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Vertical scrollbar styling */
+::-webkit-scrollbar:vertical {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track:vertical {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    background: gray;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 0px;
+}
